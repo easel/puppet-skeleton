@@ -19,3 +19,6 @@
 [submodule "modules/postfix-ses"]
 	path = modules/postfix-ses
 	url = https://github.com/easel/puppet-postfix-ses.git
+[submodule "modules/postgres"]
+	path = modules/postgres
+	url = https://github.com/easel/puppet-postgres.git
