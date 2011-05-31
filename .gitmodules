@@ -55,3 +55,9 @@
 [submodule "modules/django-stack"]
 	path = modules/django-stack
 	url = git://github.com/easel/puppet-django-stack.git
+[submodule "modules/jenkins"]
+	path = modules/jenkins
+	url = git://github.com/easel/puppet-jenkins.git
+[submodule "modules/solr"]
+	path = modules/solr
+	url = git://github.com/easel/puppet-solr.git
