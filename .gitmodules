@@ -1,24 +1,24 @@
 [submodule "modules/ntp"]
 	path = modules/ntp
-	url = https://github.com/easel/puppet-ntp
+	url = git://github.com/easel/puppet-ntp
 [submodule "modules/apt"]
 	path = modules/apt
-	url = https://github.com/easel/puppet-apt.git
+	url = git://github.com/easel/puppet-apt.git
 [submodule "modules/java"]
 	path = modules/java
-	url = https://github.com/easel/puppet-java.git
+	url = git://github.com/easel/puppet-java.git
 [submodule "modules/autofs"]
 	path = modules/autofs
-	url = https://github.com/easel/puppet-autofs.git
+	url = git://github.com/easel/puppet-autofs.git
 [submodule "modules/nfs"]
 	path = modules/nfs
-	url = https://github.com/easel/puppet-nfs.git
+	url = git://github.com/easel/puppet-nfs.git
 [submodule "modules/common"]
 	path = modules/common
-	url = https://github.com/easel/puppet-common
+	url = git://github.com/easel/puppet-common
 [submodule "modules/postfix-ses"]
 	path = modules/postfix-ses
-	url = https://github.com/easel/puppet-postfix-ses.git
+	url = git://github.com/easel/puppet-postfix-ses.git
 [submodule "modules/postgres"]
 	path = modules/postgres
-	url = https://github.com/easel/puppet-postgres.git
+	url = git://github.com/easel/puppet-postgres.git
