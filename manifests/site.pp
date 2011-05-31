@@ -12,7 +12,7 @@ import "classes/*"
 $platform = "$operatingsystem-$lsbdistcodename-$architecture"
 #
 # LSB Provider Name - http://www.lanana.org/lsbreg/providers/providers.txt
-$lsbProvider = "xms"
+$lsbProvider = "github"
 
 # default snmp sysLocation
 $snmpSyslocation = "unknown"

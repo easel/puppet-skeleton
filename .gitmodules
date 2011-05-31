@@ -22,3 +22,36 @@
 [submodule "modules/postgres"]
 	path = modules/postgres
 	url = git://github.com/easel/puppet-postgres.git
+[submodule "modules/ec2"]
+	path = modules/ec2
+	url = git://github.com/easel/puppet-ec2.git
+[submodule "modules/rpm"]
+	path = modules/rpm
+	url = git://github.com/easel/puppet-rpm.git
+[submodule "modules/centos"]
+	path = modules/centos
+	url = git://github.com/easel/puppet-centos.git
+[submodule "modules/sysctl"]
+	path = modules/sysctl
+	url = git://github.com/easel/puppet-sysctl.git
+[submodule "modules/yum"]
+	path = modules/yum
+	url = git://github.com/easel/puppet-yum.git
+[submodule "modules/pam"]
+	path = modules/pam
+	url = git@github.com:easel/puppet-pam.git
+[submodule "modules/python2"]
+	path = modules/python2
+	url = git://github.com/easel/puppet-python2.git
+[submodule "modules/varnish"]
+	path = modules/varnish
+	url = git://github.com/easel/puppet-varnish.git
+[submodule "modules/nginx"]
+	path = modules/nginx
+	url = git://github.com/easel/puppet-nginx.git
+[submodule "modules/apache"]
+	path = modules/apache
+	url = git://github.com/easel/puppet-apache.git
+[submodule "modules/django-stack"]
+	path = modules/django-stack
+	url = git://github.com/easel/puppet-django-stack.git
