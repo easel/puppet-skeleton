@@ -3,7 +3,7 @@ node 'vagrant' inherits default {
     django-stack::app {"test_app":
        vhost_name => "000-default",
        server_name => "stg.vagrantup.local",
-       server_aliases => "*.stg.vagrantup.local, 
+       server_aliases => "*.stg.vagrantup.local", 
     }
 }
 
