@@ -13,6 +13,12 @@ $platform = "$operatingsystem-$lsbdistcodename-$architecture"
 #
 # LSB Provider Name - http://www.lanana.org/lsbreg/providers/providers.txt
 $lsbProvider = "github"
+case $operatingsystem {
+   "redhat": {
+      $lsbdistrelease = 5
+      $lsbmajdistrelease = 5
+   }
+}
 
 # default snmp sysLocation
 $snmpSyslocation = "unknown"
@@ -99,7 +105,7 @@ Package {
     provider => $operatingsystem ? {
         ubuntu => aptitude,
         debian => aptitude,
-        redhat => up2date,
+        redhat => yum,
         CentOS => yum,
     }
 }
